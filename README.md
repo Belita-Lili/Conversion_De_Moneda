@@ -1,4 +1,4 @@
-# Currency Converter
+# CurrencyConverter.java
 Este programa en Java te permite convertir una cantidad de una moneda a otra utilizando la API de ExchangeRate-API.
 
 ## Uso
@@ -28,7 +28,10 @@ java CurrencyConverter
 ## Requisitos
 Este programa requiere Java Development Kit (JDK) instalado en tu sistema. Puedes descargarlo desde la página oficial de Oracle.
 
-Además, el programa utiliza la biblioteca estándar de Java y no requiere ninguna dependencia adicional.
+_____________________________________________________________________________________________________________________________________________________________________________
+# CurrencyConverter.js + Inicio.html + Inicio.css
 
-## Contribuciones
-Si encuentras algún error o tienes alguna sugerencia de mejora, siéntete libre de abrir un problema o enviar una solicitud de extracción. ¡Tus contribuciones son bienvenidas!
+Este programa es un conversor de moneda que utiliza una API de tasas de cambio para convertir un importe de una moneda a otra seleccionada por el usuario. Cuando el usuario ingresa el importe, selecciona las monedas de origen y destino, y hace clic en el botón "Convertir", el programa realiza una solicitud a la API, obtiene la tasa de cambio correspondiente, calcula el importe convertido y lo muestra en la página web.
+
+![image](https://github.com/Belita-Lili/Conversion_De_Moneda/assets/108208664/503518da-4543-4d5e-8354-9b2c7ca6b14f)
+
