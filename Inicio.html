@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,minimum-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Protest+Strike&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <title>Conversor de Moneda</title>
+    <link rel="stylesheet" href="Inicio.css">
+    <link rel="shorcut icon" type="image/x-icon" href="Imagenes/favicon.ico">
+</head>
+<body>
+    <div>
+        <header class = "menu">
+                <ul>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Iniciar secion</a></li>
+                    <li><a href="#">Registrate</a></li>
+                </ul>
+        </header>
+    </div>
+        <section>  
+                <article>
+                    <h1>Conversor de moneda</h1>
+                        <div class="container">
+                            <img class="imag2" src="Imagenes/intercambiar.png">
+                        </div>
+                    <p class="texto">
+                        En esta aplicacion se pondran en practica conocimientos para solicitar a una API de tasas de cambio, a manipular datos JSON y, finalmente, a filtrar y mostrar las monedas de interés.
+                    </p>     
+                </article>
+        </section>
+        <section class="main">
+            <div class="Actividades">
+                <ul>
+                    <li><a href="#">Convertir</a></li>
+                    <li><a href="#">Transferir</a></li>
+                    <li><a href="#">Estado de cuenta</a></li> 
+                </ul>
+            </div>
+            <div class="Indicaciones">
+                <a href="#" class="IMPORTE">Importe</a>
+                <a href="#" class="COMPARACION">De:</a>
+                <a href="#" class="RESULTADO">a</a> 
+            </div>
+            <div class="Botones">
+                <input type="number" id="valorUsuario1" class="caja Importe"> </input>
+                <input type="text" id="valorUsuario2" class="caja Comparacion"> </input>
+                <input type="text" id="valorResultado" class="caja Resultado"> </input> 
+            </div>
+            <div class="Boton">
+                <p>Usamos la tasa del mercado medio para nuestro conversor. Esto solo tiene fines informativos.</p> 
+                <button onclick="verificarIntento();" class="Convertir">Convertir</button>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="autores">
+                <p>Liliana BeTa 2024 - Todos los derechos reservados</p>
+                <a href="https://www.flaticon.com/free-icons/budget" title="budget icons">Budget icons created by Freepik - Flaticon</a>
+            </div>
+        </footer>
+    <script src="ConversorDeMoneda.js" defer></script>
+</body>
+</html>
