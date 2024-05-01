@@ -18,6 +18,8 @@ javac CurrencyConverter.java
 4. Ejecuta el programa con el siguiente comando:
 
 java CurrencyConverter
+
+## El Codigo correra de la siguiente manera:
 ![image](https://github.com/Belita-Lili/Conversion_De_Moneda/assets/108208664/35f2c6b1-b6fc-4c00-8e10-82a76c625334)
 ![image](https://github.com/Belita-Lili/Conversion_De_Moneda/assets/108208664/8c16b865-db09-4e2d-866a-56e9dbfb63e8)
 ![image](https://github.com/Belita-Lili/Conversion_De_Moneda/assets/108208664/6c363b12-05c3-440e-b56f-b8021660c0fe)
